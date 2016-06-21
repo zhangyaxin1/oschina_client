@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+   <!-- 文本视图组件：用于显示字符串
+   id:view的唯一名称
+   layout_width:view的宽度
+   layout_height:view的高度
+   text:显示的内容
+    -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"       
+        android:text="abc123" />
+
+    
+</RelativeLayout>
